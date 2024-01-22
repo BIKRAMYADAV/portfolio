@@ -48,7 +48,6 @@ export default function Home() {
               </Link>
           </div>
       <div className="absolute bottom-0 right-0 z-[10]">
-      <Image src= "/dragon-flag.gif" alt = "horse" width={300} height={300} className="absolute right-55 top-40"/>
 
       <Image src= "/cliff.webp" alt="cliff" width={480} height={480}/>
 
