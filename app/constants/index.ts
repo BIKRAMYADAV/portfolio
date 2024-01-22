@@ -82,8 +82,8 @@ export const Socials = [
     src: "/instagram.svg",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Github",
+    src: "/github-logo.png",
   },
   {
     name: "Instagram",

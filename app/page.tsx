@@ -3,17 +3,20 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main  className="w-screen h-screen relative">
-      <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage : "url(/main-bg.webp)"}}>
+      <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage : "url(/main2.png)"}}>
         <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
           <h1 className="text-[50px] text-white font-semibold">
-            Make anything possible with
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+            Hi, I am Bikram :
+            <span>
+              {" "}a
+            </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-red-700">
              {" "}
-              Web Development
+             Web Developer
             </span>
           </h1>
           <p className="text-gray-200 hidden md:block">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dolore numquam doloremque, labore nam aspernatur porro quas odit sapiente. Eligendi, facere dolor omnis id totam numquam facilis mollitia nesciunt itaque.
+            I am currently a sophomore studying in IIIT Bhubaneswar and this portfolio holds my odyssey.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
               <Link href = "/my-skills" className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
@@ -45,7 +48,7 @@ export default function Home() {
               </Link>
           </div>
       <div className="absolute bottom-0 right-0 z-[10]">
-      <Image src= "/horse.png" alt = "horse" width={300} height={300} className="absolute right-55 top-40"/>
+      <Image src= "/dragon-flag.gif" alt = "horse" width={300} height={300} className="absolute right-55 top-40"/>
 
       <Image src= "/cliff.webp" alt="cliff" width={480} height={480}/>
 

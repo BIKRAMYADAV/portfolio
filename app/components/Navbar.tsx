@@ -7,14 +7,14 @@ const Navbar = () => {
         <div className='flex flex-row gap-3 items-center'>
            <div className='relative'>
             <Image 
-            src="/horseLogo.jpg"
+            src="/dragon-head.png"
             alt='logo'
             width={40}
             height={40}
             className='w-full h-full object-contain rounded-full'
             />
             </div>
-                <h1 className='text-white text-[25px] font-semibold'>Bikram <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
+                <h1 className='text-white text-[25px] font-semibold'>Bikram <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-red-500">
              {" "}
              Yadav
               {" "}
