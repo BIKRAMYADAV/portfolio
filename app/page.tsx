@@ -48,9 +48,9 @@ export default function Home() {
               </Link>
           </div>
 
-          <div className="absolute  bottom-80 right-0 z-[15] border-black ">
+          <div className="absolute  bottom-80 top-40 right-20 z-[15] border-black ">
 
-<Image src= "/d7.jpg" alt="dragon" className="border-black rounded-full " width={400} height={500}/>
+<Image src= "/d69.jpg" alt="dragon" className="border-teal-950 border-8 rounded-full " width={300} height={300}/>
 
 </div>
 
