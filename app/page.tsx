@@ -47,7 +47,14 @@ export default function Home() {
                 Contact me
               </Link>
           </div>
-      <div className="absolute bottom-0 right-0 z-[10]">
+
+          <div className="absolute  bottom-80 right-0 z-[15] border-black ">
+
+<Image src= "/d7.jpg" alt="dragon" className="border-black rounded-full " width={400} height={500}/>
+
+</div>
+
+      <div className="absolute  bottom-0 right-0 z-[10]">
 
       <Image src= "/cliff.webp" alt="cliff" width={480} height={480}/>
 

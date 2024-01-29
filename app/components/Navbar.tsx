@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Socials } from '../constants'
+import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className='fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20'>
@@ -22,15 +22,22 @@ const Navbar = () => {
          
         </div>
         <div className='flex flex-row gap-5 mb-2'>
-            {Socials.map((social) => (
-                <Image 
-                    key={social.name}
-                    src={social.src}
-                    alt={social.name}
-                    width={28}
-                    height={28}
-                />
-            ))}
+        <div className="github">
+            <Link href={'https://github.com/BIKRAMYADAV'}>
+  <Image src={"/github-logo.png"} alt="Github" width={40} height={40} />
+</Link>
+           </div>
+           <div className="linked-in">
+            <Link href={'https://www.linkedin.com/in/bikram-deep-yadav-530955270/'}>
+  <Image src={"/linkedin-logo.png"} alt="My linked-in" width={40} height={40} />
+</Link>
+           </div>
+           <div className="instagram">
+            <Link href={'https://www.instagram.com/'}>
+  <Image src={"instagram.svg"} alt="My Insta" width={40} height={40} />
+</Link>
+           </div>
+       
         </div>
     </div>
   )

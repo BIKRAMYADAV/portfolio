@@ -1,14 +1,16 @@
 "use client"
 import React, { useState } from 'react'
 import {motion} from 'framer-motion'
+import Link from 'next/link'
 
 interface Props {
     image: string;
     title: string;
     text: string;
+    link: string;
 }
 
-const ProjectCard = ({ image, title, text}: Props) => {
+const ProjectCard = ({ image, title, text, link}: Props) => {
     const [isFlipped, setIsFlipped] = useState(false)
     const [isAnimating, setIsAnimating] = useState(false)
 
@@ -46,6 +48,7 @@ const ProjectCard = ({ image, title, text}: Props) => {
                     <p className='text-gray-200 text-[20px]'>
                         {text}
                     </p>
+                    <Link className='text-whote text-2xl font-semibold ' target = "_blank" href={link}>Github-link</Link>
                   </div>
             </div>
         </motion.div>

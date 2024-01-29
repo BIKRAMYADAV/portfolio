@@ -32,10 +32,10 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Redux",
-    Image: "/redux.png",
+    name: "Express",
+    Image: "/express.png",
     width: 80,
-    height: 80,
+    height: 1500,
   },
 
   {
@@ -46,7 +46,7 @@ export const SkillData = [
   },
   {
     name: "Next js 13",
-    Image: "/next.png",
+    Image: "/next-logo.jpg",
     width: 80,
     height: 80,
   },
@@ -57,8 +57,8 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
+    name: "Docker",
+    Image: "/docker.png",
     width: 80,
     height: 80,
   },
@@ -92,24 +92,17 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "DISNEY+ CLONE",
+    text: "It is a front-end laiden project of mine filled with a number of animations",
+    src: "/disney-clone.png",
+    link : "https://github.com/BIKRAMYADAV/DisneyPlus_Clone",
   },
   {
     title: "Space Themed Website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     src: "/SpaceWebsite.png",
-  },
-  {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
-  },
-  {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    link : "https://github.com/BIKRAMYADAV/DisneyPlus_Clone",
+
   },
 ];
 
