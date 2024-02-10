@@ -21,6 +21,24 @@ const Navbar = () => {
             </span></h1>
          
         </div>
+        
+        <div className="navigation flex gap-16">
+         
+         <div className="home transition-all "> 
+           <a className = "text-white  text-lg hover:text-gradient-to-r from-blue-500 to-red-500" href="/">HOME</a>
+          </div>
+        
+          <div className="projects transition-all hover:underline ">
+          <a className = "text-white  text-lg" href="/my-projects">PROJECTS</a>
+          </div>
+          <div className="skills transition-all  hover:underline">
+          <a className = "text-white text-lg" href="/my-skills">SKILLS</a>
+          </div>
+          <div className="contact transition-all hover:underline ">
+          <a className = "text-white  text-lg " href="/contact-me">CONTACT</a>
+          </div>
+        </div>
+
         <div className='flex flex-row gap-5 mb-2'>
         <div className="github">
             <Link href={'https://github.com/BIKRAMYADAV'}>
